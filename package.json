@@ -9,7 +9,8 @@
     "smoke-test": "cypress run --spec \"cypress\\e2e\\smokeTest\\*.cy.js\"",
     "test-electron-headed": "cypress run --headed",
     "test-chrome": "cypress run --browser chrome",
-    "test-chrome-headed": "cypress run --browser chrome --headed"
+    "test-chrome-headed": "cypress run --browser chrome --headed",
+    "dashboard-run":"npx cypress run --record --key 93a8c49d-311a-4b56-9ef0-c6bca24a1373"
   },
   "keywords": [],
   "author": "",
