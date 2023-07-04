@@ -13,11 +13,11 @@ I possess a strong command of programming languages such as Java, JavaScript, Ko
 
 I have acquired mastery in the following technical skills
 
-𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬 : Java, JavaScript, Kotlin, Python, Scala
-𝐖𝐞𝐛: Selenium, WebdriverIO, Cypress, Playwright
-𝐌𝐨𝐛𝐢𝐥𝐞: Appium
-𝐀𝐏𝐈: RestAssured, Postman
-𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 : Gatling, JMeter
+- 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬 : Java, JavaScript, Kotlin, Python, Scala
+- 𝐖𝐞𝐛: Selenium, WebdriverIO, Cypress, Playwright
+- 𝐌𝐨𝐛𝐢𝐥𝐞: Appium
+- 𝐀𝐏𝐈: RestAssured, Postman
+- 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 : Gatling, JMeter
 
 As an experienced Online/Udemy Trainer, I have had the privilege of assisting over 1000+ students in their automation training journey. With a focus on providing comprehensive and practical knowledge, I am dedicated to empowering individuals with the skills necessary to excel in the field of automation.
 
