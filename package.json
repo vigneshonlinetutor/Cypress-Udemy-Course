@@ -11,7 +11,7 @@
     "test-electron-headed": "cypress run --headed",
     "test-chrome-headed": "cypress run --browser chrome --headed",
     "dashboard-run": "npx cypress run --record --key 93a8c49d-311a-4b56-9ef0-c6bca24a1373",
-    "scripts":"cypress run --spec \"cypress\\e2e\\smoke\\*.js\"",
+    "scripts":"cypress run",
     "clean:reports":"rmdir /S /Q cypress\\reports && mkdir cypress\\reports && mkdir cypress\\reports\\mochareports",
     "pretest": "npm run clean:reports",
     "combine-reports": "mochawesome-merge ./cypress/reports/mocha/*.json > cypress/reports/mochareports/report.json",
@@ -25,7 +25,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.6.0"
+    "cypress": "^13.6.2"
   },
   "devDependencies": {
     "cypress-file-upload": "^5.0.8",
