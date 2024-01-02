@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 describe('API testing',function(){
 
     it('GET Method',function(){

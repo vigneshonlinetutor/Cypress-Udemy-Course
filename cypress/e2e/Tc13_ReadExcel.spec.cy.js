@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 describe('Excel test',function(){
 
     var data;

@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 describe('File upload',function(){
 
     it('Upload a pdf file',function(){

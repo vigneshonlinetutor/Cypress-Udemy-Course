@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 describe('Advanced UI Elements',function(){
 
     it('Browser Controls',function(){

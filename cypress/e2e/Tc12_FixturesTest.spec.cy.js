@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 describe('Fixtures test',function(){
 
     beforeEach(function(){

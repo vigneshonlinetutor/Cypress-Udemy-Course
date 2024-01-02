@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 describe('Hooks Basics',function(){
 
     before(function(){
