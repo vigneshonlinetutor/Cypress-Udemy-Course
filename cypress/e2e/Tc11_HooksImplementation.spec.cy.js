@@ -15,9 +15,10 @@ describe('Hooks Conduit', function () {
         cy.get('button[type="submit"]').click()
     })
 
-    it('Search in Admin Tab with Employee Name',function(){
+    it('Search in Admin Tab with User Role',function(){
         cy.contains('Admin').click()
-        cy.get('input[placeholder="Type for hints..."]').type('Chenzira Chuki')
+        cy.xpath('(//i[contains(@class,"oxd-select-text--arrow")])[1]').click()
+        cy.get('div[role="listbox"]').contains('Admin').click()
         cy.get('button[type="submit"]').click()
     })
 
