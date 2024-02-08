@@ -5,7 +5,10 @@ describe('Excel test',function(){
     var data;
 
     beforeEach(function(){
-        data = cy.task('readXlsx',{file:'cypress/fixtures/ConduitExcelData.xlsx',sheet:'Sheet1'})
+        // If you want to refer to Sheet1 then you dont need to pass it deliberately
+        // If you want to pass other sheet names then use it like below
+        // data = cy.task('readXlsx',{file:'cypress/fixtures/ConduitExcelData.xlsx',sheet:'Sheet2'})
+        data = cy.task('readXlsx',{file:'cypress/fixtures/ConduitExcelData.xlsx'})
         .then((rows)=>{
             data = rows
         })
