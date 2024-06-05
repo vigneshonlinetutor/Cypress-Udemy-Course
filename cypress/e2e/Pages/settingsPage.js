@@ -1,4 +1,5 @@
 import BasePage from "./basePage"
+import landingPage from "./landingPage";
 
 class SettingsPage extends BasePage{
 
@@ -6,6 +7,7 @@ class SettingsPage extends BasePage{
 
     clickLogoutButton(){
         this.clickElement(this.getLogoutButton(),true);
+        return landingPage;
     }
 }
 const settingsPage = new SettingsPage();

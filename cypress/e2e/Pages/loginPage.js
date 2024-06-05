@@ -1,4 +1,5 @@
 import BasePage from "./basePage"
+import homePage from "./homePage"
 
 class LoginPage extends BasePage{
 
@@ -10,14 +11,17 @@ class LoginPage extends BasePage{
 
     enterEmail(email){
         this.fillText(this.getEmail(),email);
+        return this;
     }
 
     enterPassword(password){
         this.fillText(this.getPassword(),password);
+        return this;
     }
 
     clickSigninButton(){
         this.clickElement(this.getSigninButton());
+        return homePage;
     }
 
 }

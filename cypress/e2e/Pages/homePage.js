@@ -1,4 +1,5 @@
 import BasePage from "./basePage"
+import settingsPage from "./settingsPage"
 
 class HomePage extends BasePage{
 
@@ -14,10 +15,12 @@ class HomePage extends BasePage{
 
     checkYourFeedIsVisible(){
         this.isElementVisible(this.getYourFeed(),true);
+        return this;
     }
 
     clickSettingsButton(){
         this.clickElement(this.getSettings(),true);
+        return settingsPage;
     }
 }
 const homePage = new HomePage();
