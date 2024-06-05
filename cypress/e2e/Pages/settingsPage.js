@@ -8,5 +8,5 @@ class SettingsPage extends BasePage{
         this.clickElement(this.getLogoutButton(),true);
     }
 }
-
-export default SettingsPage
+const settingsPage = new SettingsPage();
+export default settingsPage

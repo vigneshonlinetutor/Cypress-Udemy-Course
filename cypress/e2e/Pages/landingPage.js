@@ -8,5 +8,5 @@ class LandingPage extends BasePage{
     }
 
 }
-
-export default LandingPage
+const landingPage = new LandingPage();
+export default landingPage

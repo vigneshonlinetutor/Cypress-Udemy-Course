@@ -21,5 +21,5 @@ class LoginPage extends BasePage{
     }
 
 }
-
-export default LoginPage
+const loginPage = new LoginPage();
+export default loginPage
