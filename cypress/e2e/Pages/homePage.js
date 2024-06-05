@@ -1,4 +1,6 @@
-class HomePage{
+import BasePage from "./basePage"
+
+class HomePage extends BasePage{
 
     getYourFeed(){return 'Your Feed'}
 
@@ -11,11 +13,11 @@ class HomePage{
     getSettings(){return 'Settings'}
 
     checkYourFeedIsVisible(){
-        cy.contains(this.getYourFeed()).should('be.visible')
+        this.isElementVisible(this.getYourFeed(),true);
     }
 
     clickSettingsButton(){
-        cy.contains(this.getSettings()).click()
+        this.clickElement(this.getSettings(),true);
     }
 }
 

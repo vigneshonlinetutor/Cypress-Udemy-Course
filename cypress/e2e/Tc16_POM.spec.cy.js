@@ -1,9 +1,9 @@
 /// <reference types="Cypress" />
 
-import LandingPage from "./Pages/landingPage"
-import LoginPage from "./Pages/loginPage"
-import HomePage from "./Pages/homePage"
-import SettingsPage from "./Pages/settingsPage"
+import LandingPage from "./pages/landingPage"
+import LoginPage from "./pages/loginPage"
+import HomePage from "./pages/homePage"
+import SettingsPage from "./pages/settingsPage"
 
 describe('POM Test',function(){
 
