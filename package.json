@@ -23,7 +23,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.16.0"
+    "cypress": "^13.17.0"
   },
   "devDependencies": {
     "cypress-file-upload": "^5.0.8",
